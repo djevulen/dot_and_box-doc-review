@@ -6,7 +6,7 @@ sidebar_position: 2
 
 All you need to do is add **dot and box** js script reference and add *dot-and-box* tag to your html page.
 
-1) install script with npm
+1) Install script with npm
    ```shell
    npm i dot-and-box
    ```
@@ -14,7 +14,7 @@ All you need to do is add **dot and box** js script reference and add *dot-and-b
     ```html
     <script src="dot-and-box.js"></script>
     ```
-3) Add *dots-and-boxes* tag to your html page e.g.
+3) Add *dot-and-box* tag to your html page e.g.
     ```html
     <dot-and-box controls code="
       title: sort with bubble sort
