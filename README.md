@@ -17,7 +17,7 @@ See [documentation](https://dot-and-box.github.io/dot_and_box) and see [examples
 
 ## How to use it
 
-dot and box is using [HTML web components standard](https://developer.mozilla.org/en-US/docs/Web/API/Web_Components)
+**dot and box** is using [HTML web components standard](https://developer.mozilla.org/en-US/docs/Web/API/Web_Components)
 
 1) install script by npm 
    ```shell
