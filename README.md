@@ -1,9 +1,10 @@
 ## dot and box
 
-**dot and box** allows drawing dots and boxes and do simple step based animations making it easy to
+**dot and box** allows drawing dots and boxes and do simple step-based animations making it easy to
 visualise some algorithms or your raw ideas e.g. show event flow in a distributed system.
 
 [![dab_view.png](https://dot-and-box.github.io/dot_and_box/img/dab_view.png)](https://dot-and-box.github.io/dot_and_box)
+
 ## Documentation and examples
 
 See [documentation](https://dot-and-box.github.io/dot_and_box) and see [examples](https://dot-and-box.github.io/dot_and_box/category/examples)
@@ -15,6 +16,7 @@ See [documentation](https://dot-and-box.github.io/dot_and_box) and see [examples
 - visualize event driven architecture communication
 
 ## How to use it
+
 dot and box is using [HTML web components standard](https://developer.mozilla.org/en-US/docs/Web/API/Web_Components)
 
 1) install script by npm 
@@ -46,7 +48,7 @@ dot and box is using [HTML web components standard](https://developer.mozilla.or
    win -> +[1,0]
    5 <-> 4
    step: 'repeat from start'
-   win -> -[3,0]"
+   win -> -[3,0]">
 </dot-and-box>
 ```
 
@@ -70,6 +72,7 @@ npm run build
 npm run test
 ```
 ### build docs
+
 ```shell
 nvm use 20
 cd docs
