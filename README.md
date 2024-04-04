@@ -1,7 +1,6 @@
 ## dot and box
 
-**dot and box** allows drawing dots and boxes and do simple step based animations making it easy to
-visualise some algorithms or your raw ideas e.g. show event flow in a distributed system.
+**dot and box** is a TypeScript based "diagramming" tool that lets you create and add simple step-based animations directly in your HTML. It uses intuitive markdown-like script to define elements and phases of your animations (e.g. dots, boxes, lines, movements) making it easy to visualize your raw ideas in a dynamic way (e.g. show event flow in a distributed system).
 
 [![dab_view.png](https://dot-and-box.github.io/dot-and-box/img/dab_view.png)](https://dot-and-box.github.io/dot-and-box)
 ## Documentation and examples
@@ -11,12 +10,13 @@ or play with [live editor here](https://dot-and-box.github.io/dot-and-box-editor
 
 #### Example use cases
 
-- visualize algorithm ideas e.g. bubble sort
-- visualize common CS patterns e.g. request response pattern 
-- visualize event driven architecture communication
+- visualize concepts, ideas, algorithms, e.g. bubble sort
+- visualize common CS patterns e.g. request-response pattern 
+- visualize event-driven communication / architecture
 
 ## How to use it
-dot and box is using [HTML web components standard](https://developer.mozilla.org/en-US/docs/Web/API/Web_Components)
+
+**dot and box** is using [HTML web components standard](https://developer.mozilla.org/en-US/docs/Web/API/Web_Components)
 
 1) install script by npm 
    ```shell
@@ -47,7 +47,7 @@ dot and box is using [HTML web components standard](https://developer.mozilla.or
    win -> +[1,0]
    5 <-> 4
    step: 'repeat from start'
-   win -> -[3,0]"
+   win -> -[3,0]">
 </dot-and-box>
 ```
 
@@ -71,6 +71,7 @@ npm run build
 npm run test
 ```
 ### build docs
+
 ```shell
 nvm use 20
 cd docs

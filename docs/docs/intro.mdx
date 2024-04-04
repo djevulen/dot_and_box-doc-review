@@ -6,16 +6,16 @@ slug: /
 
 # Dot and Box
 
-### what and what for?
- **dot and box** allows drawing dots and boxes and do simple step based animations making it easy to
-visualise some algorithms or your raw ideas e.g. show event flow in a distributed system.
+## Intro
 
-But hey, you can use it for whatever you like!
+### What it is and what it's for
 
-#### visualise algorithms
+**dot and box** is a TypeScript based "diagramming" tool that lets you create and add simple step-based animations directly in your HTML. It uses intuitive markdown-like script to define elements and phases of your animations (e.g. you can draw dots, boxes, lines, and define their movements) making it easy to visualize your ideas in a dynamic way (e.g. show event flow in a distributed system, explain various interactions, illustrate algorithms, represent simple models, etc). But hey, you can use it for whatever you like!
+
+#### Example: Visualize algorithms
 
 Let's assume you want to explain how the bubble sort works.
-It can be done writing *dot and box* code like one below:
+It can be done by writing *dot and box* code like the one below:
 
 ```dabl tab showLineNumbers
 title: sort with bubble sort
@@ -60,7 +60,7 @@ win -> -[3,0]
  </dot-and-box>
 ```
 
-and see **dot and box** visualization result:
+and see the resulting **dot and box** visualization:
 
  <dot-and-box controls style={{height: 300}}    code="
    title: sort with bubble sort
@@ -89,9 +89,9 @@ Play with control buttons, to see what happens.
 
 You can play with **dot and box** code on the [**live editor**](https://dot-and-box.github.io/dot-and-box-editor/) page.
 
-## How it works ?
+### How it works
 
 Technically **dot and box** is an [HTML5 custom element](https://developer.mozilla.org/en-US/docs/Web/API/Web_Components/Using_custom_elements).
-You can add *dot-and-box* tag (just like normal *div* tag) to your page with code attribute defining controls and animation steps.  On the next page [getting started] page to see how to use it.
+You can add *dot-and-box* tag (just like normal *div* tag) to your page with *code* attribute defining controls and animation steps using the *dot and box* script.  You will see more details on the next page [getting started].
 
 
